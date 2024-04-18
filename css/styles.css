@@ -1,0 +1,91 @@
+/*   box-sizing   */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*   base   */
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+   /* font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;*/
+}
+
+.wrapper{
+    width: 1315px;
+    margin: 0 auto;
+}
+
+/*   header   */
+
+header{
+    font-size: 1.8rem;
+
+}
+
+header .Logo{
+    font-size: 4.2rem;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+
+    color: #474747;
+}
+
+header ul:hover{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.Logo a{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    color: black;
+}
+
+
+
+
+
+
+/*   contenue principale   */
+
+.hero{
+    background-image: url(../images/SECTION\ BANNIERE.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
