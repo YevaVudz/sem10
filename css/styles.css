@@ -78,11 +78,6 @@ a{
     color: black;
 }
 
-
-
-
-
-
 /*   contenue principale   */
 
 .hero{
@@ -92,7 +87,27 @@ a{
     background-size: cover;
 }
 
+div.boite{
+    height: 510px;
+    width: 600px;
 
+    float: right;
+    
+
+    background-color: rgba(226, 82, 84, 0.90)
+}
+
+.boite{
+   padding: 50px 30px 87px 30px; 
+}
+
+.boite p{
+    font-size: 1.8rem;
+}
+
+.boite .textegras{
+    font-size: 4.8rem;
+}
 
 
 
