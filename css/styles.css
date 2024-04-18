@@ -21,10 +21,12 @@ body{
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;*/
+
+    border-top: 4px solid #E25254;
 }
 
 .wrapper{
-    width: 1315px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -33,6 +35,7 @@ body{
 header{
     font-size: 1.8rem;
 
+    height: 70px;
 }
 
 header .Logo{
@@ -50,11 +53,15 @@ header ul{
     gap: 10px;
     justify-content: center;
     list-style: none;
+}
 
+header li a{
     color: #474747;
 }
 
-header ul:hover{
+header li a:hover{
+    color: #E25254;
+    border-bottom: 1px solid #E25254;
 
 }
 
