@@ -34,7 +34,7 @@ body{
 
 header{
     font-size: 1.8rem;
-
+    color: white;
     height: 70px;
 }
 
@@ -72,10 +72,10 @@ a{
 .Logo a{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 
-    color: black;
+    color: #474747;
 }
 
 /*   contenue principale   */
@@ -99,15 +99,65 @@ div.boite{
 
 .boite{
    padding: 50px 30px 87px 30px; 
+   margin: 45px 0 0 0;
 }
 
 .boite p{
     font-size: 1.8rem;
+    color: white;
 }
 
-.boite .textegras{
+.boite h1{
     font-size: 4.8rem;
+    margin: 30px 0 35px 0;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    color: white;
 }
+
+.portfolio{
+    font-size: 1.8rem;
+    color: white;
+    background-color: #C0392B;
+    text-align: right;
+    float: right;
+
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.portfolio:hover{
+    background-color: white;
+    color: #C0392B;
+}
+
+.contenu{
+    height: 725px;
+    background-color: #ECF0F1;
+}
+
+.contenu p{
+    font-size: 1.8rem;
+}
+
+.contenu h2{
+    font-size: 3.9rem;
+
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+    margin: 0 0 0 0;
+    padding: 80px 0 6px 0;
+
+    color: #474747;
+}
+
 
 
 
